@@ -1,0 +1,153 @@
+body{
+        transform: translate(20deg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image:radial-gradient(red,pink,blue,yellow);
+
+    }
+.rear{
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: pink;
+    margin-left: 1250px;
+    margin-top: 40px;
+    transform:transcale(50px,120px);
+    border: 2px solid black;
+    animation-name: example;
+    animation-duration:5s;
+}
+  @keyframes example {
+        from {
+            background-color: pink;
+        }
+        to {
+            background-color:green;
+        }
+}
+.lear{
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: pink;
+    margin-left: 1050px;
+    margin-top: 40px;
+    /*transform:transcale(50px,120px);*/
+    border: 2px solid black;
+    animation-name: example;
+    animation-duration:5s;
+}
+  @keyframes example {
+        from {
+            background-color: pink;
+        }
+        to {
+            background-color:green;
+        }       
+}
+.face{
+    height: 250px;
+    width: 250px;
+    background-color:pink;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 70%;
+    position: absolute;
+    border: 2px solid black;
+    animation-name: example;
+    animation-duration:5s;
+}
+  @keyframes example {
+        from {
+            background-color: pink;
+        }
+        to {
+            background-color:green;
+        }
+    }
+.mouth{
+    height: 55px;
+    width:120px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid black;
+    top:-18px;
+    left:calc(50%-60%px);
+    transition:0.5s;
+}
+.leye{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+    /*transform:transcale(50px,120px);*/
+    border: 2px solid black;
+}
+
+.reye{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 0px;
+    transform:transcale(50px,120px);
+    border: 2px solid black;
+}
+.lpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 19px;
+    margin-top: 19px;
+}
+.rpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 19px;
+    margin-top: 19px;
+}
+.nose{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    margin-left:80px;
+    transform:transcale(50px,120px);
+
+    margin-top: 130px;
+}
+.lnose{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.rnose{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+
+
